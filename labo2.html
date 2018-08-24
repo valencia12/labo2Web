@@ -18,13 +18,13 @@
                 <legend>Informacion personal</legend>
                 
                    <label>DUI:</label>  <input type="text"  pattern="[0][0-9]{8}-[0-9]">
-                   <label>Primer Nombre:</label>  <input type="email" pattern="[Aa-Zz]">
-                   <label>Apellido:</label>  <input type="date"pattern="[Aa-Zz]" >
-                   <label>Genero:</label>  <input name="f" type="radio">F
-                    <input name="f" type="radio">m
+                   <label>Primer Nombre:</label>  <input type="email" pattern="[Aa-az]">
+                   <label>Apellido:</label>  <input type="date"pattern="[Aa-az]" >
+                   <label>Genero:</label>  <input name="f" type="radio" value="f">F
+                    <input name="f" type="radio" value="m">m
                     <br>
                     <br>
-                    <label>Numero de contacto</label> <input type="text" pattern="[Aa-Zz]">
+                    <label>Numero de contacto</label> <input type="text" pattern="[0-9]{7}-[0-9]">
                     <label>Fecha de nacimiento</label> <input type="date">
                     <label>Estado civil</label> <select>
                                 <option>Casado</option>
@@ -74,7 +74,7 @@
     </fieldset> 
     <br>
     <input type="submit" value="Enviar">
-    <input type="submit" value="Cancelar">
+    <input type="button" value="Cancelar">
 </form>
     </section>
 </body>
